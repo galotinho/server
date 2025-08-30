@@ -1,0 +1,52 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "hello"
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "clientes": [
+    {
+      "id": 1,
+      "cpf": "12345678901",
+      "nome": "João da Silva",
+      "endereco": "Rua A, 100 - Centro, Fortaleza/CE",
+      "telefone": "+55 11 90000-0001",
+      "email": "joao.silva@example.com"
+    },
+    {
+      "id": 2,
+      "cpf": "98765432100",
+      "nome": "Maria Souza",
+      "endereco": "Av. B, 200 - Aldeota, Fortaleza/CE",
+      "telefone": "+55 11 90000-0002",
+      "email": "maria.souza@example.com"
+    }
+  ],
+  "locais": [
+    {
+      "id": "loja_centro",
+      "nome": "Loja Centro",
+      "endereco": "Rua A, 10 - Centro, Fortaleza/CE",
+      "cep": "60000-000"
+    },
+    {
+      "id": "assist_tecnica_norte",
+      "nome": "Assistência Técnica Norte",
+      "endereco": "Av. C, 50 - Aldeota, Fortaleza/CE",
+      "cep": "60100-000"
+    }
+  ],
+  "protocolos": [
+    // POST /protocolos deve enviar um objeto no formato:
+    // {
+    //   "cpf": "12345678901",
+    //   "local_id": "loja_centro",
+    //   "protocolo": {"numero": "AX-12345"}
+    // }
+    // O json-server retornará o objeto criado com um id incremental.
+  ]
+}
